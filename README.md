@@ -51,15 +51,21 @@ Our contributions are as follows:
 
 ## 💫 Qualitative Results
 
-<p align="center">
-  <img src="images/bilingual_conv.pdf" alt="Referring Expression">
-</p>
-<p align="center">
-  <img src="images/mcqa.pdf" alt="Referring Expression">
-</p>
+<div style="text-align:center;">
+  <img src="images/bilingual_conv-1.png" alt="Bilingual Conversation" style="height:300px; display:inline-block; margin: 0 auto;">
+  <img src="images/mcqa-1.png" alt="Multiple Choice Question Answering" style="height:250px; display:inline-block; margin: 0 auto;">
+</div>
 
 
 ## 📊 Quantitative Results
+
+The BiMediX model was evaluated across several benchmarks, demonstrating its effectiveness in medical language understanding and question answering in both English and Arabic.
+
+**Medical Benchmarks Used for Evaluation:**
+   - *PubMedQA*: A dataset for question answering from biomedical research papers, requiring reasoning over biomedical contexts.
+   - *MedMCQA*: Multiple-choice questions from Indian medical entrance exams, covering a wide range of medical subjects.
+   - *MedQA*: Questions from US and other medical board exams, testing specific knowledge and patient case understanding.
+   - *Medical MMLU*: A compilation of questions from various medical subjects, requiring broad medical knowledge.
 
 
 ### Bilingual Benchmark
@@ -70,6 +76,8 @@ Our contributions are as follows:
 | Mixtral-8x7B| 59.1       | 57.6      | 52.6      | 59.5        | 53.3        | 54.4    | 43.2        | 40.6      | 74.7         | 55.0    |
 | **BiMediX (Bilingual)**           | **70.6**   | **72.2**  | **59.3**  | **74.0**    | **64.2**    | **59.6**| **55.8**    | **54.0**  | **78.6**     | **65.4**|
 
+BiMediX shows superior performance in bilingual (Arabic-English) evaluations, outperforming both the Mixtral-8x7B base model and Jais-30B. It demonstrated more than 10 and 15 points higher average accuracy, respectively.
+
 ### Arabic Benchmark
 
 | **Model**                         | **CKG** | **CBio** | **CMed** | **MedGen** | **ProMed** | **Ana** | **MedMCQA** | **MedQA** | **PubmedQA** | **AVG** |
@@ -78,6 +86,8 @@ Our contributions are as follows:
 | BiMediX (Arabic) | 60.0 | 54.9 | **55.5** | 58.0 | **58.1** | 49.6 | 46.0 | 40.2 | 76.6 | 55.4 |
 | **BiMediX (Bilingual)** | **63.8** | **57.6** | 52.6 | **64.0** | 52.9 | **50.4** | **49.1** | **47.3** | **78.4** | **56.5** |
 
+ In Arabic-specific evaluations, BiMediX outperforms Jais-30B in all categories, highlighting the effectiveness of the BiMed1.3M dataset and bilingual training.
+ 
 ### English Benchmark
 
 | **Model**                         | **CKG** | **CBio** | **CMed** | **MedGen** | **ProMed** | **Ana** | **MedMCQA** | **MedQA** | **PubmedQA** | **AVG** |
@@ -88,6 +98,9 @@ Our contributions are as follows:
 | Meditron-70B          | 72.3       | 82.5      | 62.8      | 77.8        | 77.9        | 62.7    | **65.1**    | 60.7      | 80.0         | 71.3    |
 | **BiMediX**           | **78.9**   | **86.1**  | **68.2**  | **85.0**    | **80.5**    | **74.1**| 62.7        | **62.8**  | **80.2**     | **75.4** |
 
+BiMediX also excells in English medical benchmarks, surpassing other state-of-the-art models like Med42-70B and Meditron-70B in terms of average performance and efficiency.
+
+**These results underscore BiMediX's advanced capability in handling medical queries and its significant improvement over existing models in both languages, leveraging its unique bilingual dataset and training approach.**
 
 ---
 
