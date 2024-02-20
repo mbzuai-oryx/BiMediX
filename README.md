@@ -26,6 +26,8 @@
 We introduce BiMediX, the first bilingual medical mixture of experts LLM designed for seamless interaction in both English and Arabic.  
 Our model facilitates a wide range of **medical interactions** in English and Arabic, including multi-turn chats to inquire about additional details such as patient symptoms and medical history, multiple-choice question answering, and open-ended question answering.
 
+Our models are available for download at the Project's [HuggingFace Page](https://huggingface.co/BiMediX).
+
 ---
 
 ## 🏆 Contributions
@@ -39,15 +41,14 @@ Our contributions are as follows:
 
 
 ---
-## 
+
+## 🌟 Model 
 
 ---
 
-## 
+## 🔍 Data
 
 ---
-
-## 🔍 Dataset
 
 ## 💫 Qualitative Results
 
@@ -56,6 +57,7 @@ Our contributions are as follows:
   <img src="images/mcqa-1.png" alt="Multiple Choice Question Answering" style="height:250px; display:inline-block; margin: 0 auto;">
 </div>
 
+---
 
 ## 📊 Quantitative Results
 
