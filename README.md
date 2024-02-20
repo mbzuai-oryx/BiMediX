@@ -42,14 +42,40 @@ Our contributions are as follows:
 
 ---
 
-## 🌟 Model 
+## ⚡ Model 
+
+The BiMediX model, built on the  state-of-the-art Mixture of Experts (MoE) architecture, leverages the [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) base model. It features a router network to allocate tasks to the most relevant experts, each being specialized feedforward blocks within the model. This approach enables the model to scale significantly by utilizing a sparse operation method, where less than 13 billion parameters are active during inference, enhancing efficiency. 
+The training utilized the BiMed1.3M dataset, focusing on bilingual medical interactions in both English and Arabic, with a substantial corpus of over 632 million healthcare-specialized tokens. 
+The fine-tuning process included QLoRA, a low-rank adaptation technique to adapt the model efficiently to specific tasks while keeping computational demands manageable. 
+
+
+<div style="width: 50%">
+<table>
+<tr>
+<th>Model Name</th>
+<th>Link Download</th>
+</tr>
+<tr>
+<td>BiMediX-Bilingual</td>
+<td><a href="https://huggingface.co/BiMediX/BiMediX-Bi">HuggingFace</a></td>
+</tr>
+<tr>
+<td>BiMediX-Arabic</td>
+<td><a href="https://huggingface.co/BiMediX/BiMediX-Ara">HuggingFace</a></td>
+</tr>
+<tr>
+<td>BiMediX-English</td>
+<td><a href="https://huggingface.co/BiMediX/BiMediX-Eng">HuggingFace</a></td>
+</tr>
+</table>
+</div>  
+
 
 ---
 
 ## 🔍 Data
 
 ---
-
 ## 💫 Qualitative Results
 
 <div style="text-align:center;">
