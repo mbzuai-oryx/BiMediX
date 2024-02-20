@@ -83,7 +83,6 @@ Through these meticulous data creation and processing efforts, BiMediX is able t
 
 ---
 
----
 ## 💫 Qualitative Results
 
 <div style="text-align:center;">
