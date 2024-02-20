@@ -75,6 +75,14 @@ The fine-tuning process included QLoRA, a low-rank adaptation technique to adapt
 
 ## 🔍 Data
 
+The BiMed1.3M dataset, central to BiMediX's training, was meticulously compiled to include a wide range of medical interactions. The creation process involved generating multi-turn chat conversations using ChatGPT, based on publicly available medical MCQAs to simulate realistic doctor-patient dialogues. This dataset includes over 200,000 high-quality **multi-turn medical dialogues**, enriching the model's training material. 
+
+A semi-automated, iterative translation process was employed to create high-quality Arabic versions of the data, utilizing ChatGPT for initial translations and human professionals for refinement. This ensured the dataset's fidelity and relevance across both English and Arabic.
+Furthermore, we translated the English evaluation set to Arabic to evaluate the models. 
+Through these meticulous data creation and processing efforts, BiMediX is able to excel in understanding and generating medical content across two languages. 
+
+---
+
 ---
 ## 💫 Qualitative Results
 
