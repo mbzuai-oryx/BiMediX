@@ -13,7 +13,7 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Page-F9D371)](https://huggingface.co/BiMediX)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 [![Demo](https://img.shields.io/badge/Gradio-Demo-red)]()
-[![License](https://img.shields.io/badge/License-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
 
 ---
 
@@ -41,8 +41,11 @@ Our model facilitates a wide range of **medical interactions** in English and Ar
 
 ## 🔍 Dataset
 
+## 💫 Qualitative Results
 
-## 🤖 Results
+
+
+## 📊 Quantitative Results
 
 
 ### Bilingual Benchmark
@@ -76,14 +79,17 @@ Our model facilitates a wide range of **medical interactions** in English and Ar
 
 ## 📜 License & Citation 
 
-BiMediX is released under the CC-BY-NC-SA 4.0 License. For more details, please refer to the [LICENSE](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt) file included in this repository.  
+BiMediX is released under the CC-BY-NC-SA 4.0 License. For more details, please refer to the [LICENSE](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt) file included in this repository.    
+
 If you use BiMediX in your research, please cite our work as follows:  
 
 ```bibtex
 
 ```
 
-## 🙏 Acknowledgement
+## 🙏 Acknowledgements
+
+We are thankful to [Mistral AI](https://huggingface.co/mistralai) for releasing their models and [FastChat](https://github.com/lm-sys/FastChat) and [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl?tab=readme-ov-file#axolotl) for their open-source code contributions.
 
 ---
 
