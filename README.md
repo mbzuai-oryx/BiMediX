@@ -110,6 +110,12 @@ BiMediX also excells in English medical benchmarks, surpassing other state-of-th
 
 BiMediX is released under the CC-BY-NC-SA 4.0 License. For more details, please refer to the [LICENSE](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt) file included in this repository.    
 
+**This release, intended for research, is not ready for clinical or commercial use.** Users are urged to employ BiMediX responsibly, especially when applying its outputs in real-world medical scenarios. 
+It is imperative to verify the model's advice with qualified healthcare professionals and not to rely on AI for medical diagnoses or treatment decisions.
+Despite the overall advancements BiMediX brings to the field of medical NLP, it shares common challenges with other language models, 
+including hallucinations, toxicity, and stereotypes.   
+BiMediX's medical diagnoses and recommendations are not infallible.
+
 If you use BiMediX in your research, please cite our work as follows:  
 
 ```bibtex
