@@ -13,17 +13,16 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Page-F9D371)](https://huggingface.co/BiMediX)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 [![Demo](https://img.shields.io/badge/Gradio-Demo-red)]()
-[![License](https://img.shields.io/badge/License-lightgrey)]()
+[![License](https://img.shields.io/badge/License-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
 
 ---
 
 ## 📢 Latest Updates
-- **Dec-01-23**: [Demo]() is live on Gradio!
 - **Feb-21-24**: BiMediX paper is released [arxiv link](). 🔥🔥
 - 📦 Code, models, and datasets coming soon! 🚀
 ---
 
-## <img src="images/logo_geochat.png" height="40">Overview
+## 	:woman_health_worker: Overview
 
 ---
 
