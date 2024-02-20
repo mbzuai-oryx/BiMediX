@@ -30,6 +30,14 @@ Our model facilitates a wide range of **medical interactions** in English and Ar
 
 ## 🏆 Contributions
 
+Our contributions are as follows: 
+
+- We introduce BiMediX, the first bilingual medical LLM with expertise in both English and Arabic, enabling seamless medical interactions such as multi-turn chats, multiple choice, and closed question answering.
+- We developed a semi-automated translation pipeline with human verification for high-quality translation of English medical texts into Arabic, aiding in the creation of a dataset and benchmark for Arabic healthcare LLM evaluation.
+- We curated the BiMed1.3M dataset, a comprehensive Arabic-English bilingual instruction set with over 1.3 million instructions and 632 million healthcare-specialized tokens, supporting diverse medical interactions and enabling a chatbot for patient follow-ups, with a focus on a 1:2 Arabic-to-English ratio across medical content.
+- **BiMediX outperforms existing models in medical benchmarks while being 8-times faster than comparable existing approaches.**
+
+
 ---
 ## 
 
@@ -43,6 +51,12 @@ Our model facilitates a wide range of **medical interactions** in English and Ar
 
 ## 💫 Qualitative Results
 
+<p align="center">
+  <img src="images/bilingual_conv.pdf" alt="Referring Expression">
+</p>
+<p align="center">
+  <img src="images/mcqa.pdf" alt="Referring Expression">
+</p>
 
 
 ## 📊 Quantitative Results
