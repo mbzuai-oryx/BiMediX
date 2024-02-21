@@ -18,7 +18,7 @@
 ---
 
 ## 📢 Latest Updates
-- **Feb-21-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://796300bc586081681a.gradio.live/) is live. 🔥🔥
+- **Feb-21-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://796300bc586081681a.gradio.live/) are live. 🔥🔥
 - **Feb-21-24**: BiMediX paper is released [arxiv link](https://arxiv.org/abs/2402.13253). 🔥🔥
 - 📦 Code and datasets coming soon! 🚀
 ---
