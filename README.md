@@ -18,8 +18,9 @@
 ---
 
 ## 📢 Latest Updates
+- **Feb-21-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://796300bc586081681a.gradio.live/) is live. 🔥🔥
 - **Feb-21-24**: BiMediX paper is released [arxiv link](). 🔥🔥
-- 📦 Code, models, and datasets coming soon! 🚀
+- 📦 Code and datasets coming soon! 🚀
 ---
 
 ## 	:woman_health_worker: Overview
