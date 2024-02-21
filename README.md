@@ -11,7 +11,7 @@
 
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/mbzuai-oryx/BiMediX)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Page-F9D371)](https://huggingface.co/BiMediX)
-[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2402.13253)
 [![Demo](https://img.shields.io/badge/Gradio-Demo-red)](https://796300bc586081681a.gradio.live/)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
 
@@ -19,7 +19,7 @@
 
 ## 📢 Latest Updates
 - **Feb-21-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://796300bc586081681a.gradio.live/) is live. 🔥🔥
-- **Feb-21-24**: BiMediX paper is released [arxiv link](). 🔥🔥
+- **Feb-21-24**: BiMediX paper is released [arxiv link](https://arxiv.org/abs/2402.13253). 🔥🔥
 - 📦 Code and datasets coming soon! 🚀
 ---
 
@@ -152,7 +152,15 @@ BiMediX's medical diagnoses and recommendations are not infallible.
 
 If you use BiMediX in your research, please cite our work as follows:  
 
-```bibtex
+```
+@misc{pieri2024bimedix,
+      title={BiMediX: Bilingual Medical Mixture of Experts LLM}, 
+      author={Sara Pieri and Sahal Shaji Mullappilly and Fahad Shahbaz Khan and Rao Muhammad Anwer and Salman Khan and Timothy Baldwin and Hisham Cholakkal},
+      year={2024},
+      eprint={2402.13253},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}  
 
 ```
 
