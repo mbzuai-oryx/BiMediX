@@ -18,7 +18,7 @@
 ---
 
 ## 📢 Latest Updates
-- **Feb-21-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://bimedix.ngrok.app/) are live. 🔥🔥
+- **Feb-22-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://bimedix.ngrok.app/) are live. 🔥🔥
 - **Feb-21-24**: BiMediX paper is released [arxiv link](https://arxiv.org/abs/2402.13253). 🔥🔥
 - 📦 Code and datasets coming soon! 🚀
 ---
@@ -45,31 +45,20 @@ Our contributions are as follows:
 
 ## ⚡ Model 
 
-The BiMediX model, built on the  state-of-the-art Mixture of Experts (MoE) architecture, leverages the [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) base model. It features a router network to allocate tasks to the most relevant experts, each being specialized feedforward blocks within the model. This approach enables the model to scale significantly by utilizing a sparse operation method, where less than 13 billion parameters are active during inference, enhancing efficiency. 
-The training utilized the BiMed1.3M dataset, focusing on bilingual medical interactions in both English and Arabic, with a substantial corpus of over 632 million healthcare-specialized tokens. 
-The fine-tuning process included QLoRA, a low-rank adaptation technique to adapt the model efficiently to specific tasks while keeping computational demands manageable. 
+- The BiMediX model, built on the  state-of-the-art Mixture of Experts (MoE) architecture, leverages the [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) base model. This approach enables the model to scale significantly by utilizing a sparse operation method, where less than 13 billion parameters are active during inference, enhancing efficiency. 
+- The training utilized the **BiMed1.3M** dataset, focusing on bilingual medical interactions in both English and Arabic, with a substantial corpus of over 632 million healthcare-specialized tokens. 
+- The fine-tuning process included **QLoRA**, of both experts and router, to adapt the model efficiently to specific tasks while keeping computational demands manageable.
 
 
-<div style="width: 50%">
-<table>
-<tr>
-<th>Model Name</th>
-<th>Link Download</th>
-</tr>
-<tr>
-<td>BiMediX-Bilingual</td>
-<td><a href="https://huggingface.co/BiMediX/BiMediX-Bi">HuggingFace</a></td>
-</tr>
-<tr>
-<td>BiMediX-Arabic</td>
-<td><a href="https://huggingface.co/BiMediX/BiMediX-Ara">HuggingFace</a></td>
-</tr>
-<tr>
-<td>BiMediX-English</td>
-<td><a href="https://huggingface.co/BiMediX/BiMediX-Eng">HuggingFace</a></td>
-</tr>
-</table>
-</div>  
+             
+| Model Name           | Link Download                                  |
+|-----------------------------------------------------|----------------------------------------------------------------------|
+| BiMediX-Bilingual    | [HuggingFace](https://huggingface.co/BiMediX/BiMediX-Bi) |
+| BiMediX-Arabic       | [HuggingFace](https://huggingface.co/BiMediX/BiMediX-Ara) |
+| BiMediX-English      | [HuggingFace](https://huggingface.co/BiMediX/BiMediX-Eng) |
+
+
+
 
 
 ---
@@ -143,15 +132,19 @@ BiMediX also excells in English medical benchmarks, surpassing other state-of-th
 
 **These results underscore BiMediX's advanced capability in handling medical queries and its significant improvement over existing models in both languages, leveraging its unique bilingual dataset and training approach.**
 
+
 ---
 
 ## 📜 License & Citation 
 
 BiMediX is released under the CC-BY-NC-SA 4.0 License. For more details, please refer to the [LICENSE](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt) file included in this repository.    
 
-**This release, intended for research, is not ready for clinical or commercial use.** Users are urged to employ BiMediX responsibly, especially when applying its outputs in real-world medical scenarios. 
-It is imperative to verify the model's advice with qualified healthcare professionals and not to rely on AI for medical diagnoses or treatment decisions.
-Despite the overall advancements BiMediX brings to the field of medical NLP, it shares common challenges with other language models, 
+⚠️ **Warning! This release, intended for research, is not ready for clinical or commercial use.**    
+
+
+Users are urged to employ BiMediX responsibly, especially when applying its outputs in real-world medical scenarios. 
+It is imperative to verify the model's advice with qualified healthcare professionals and not rely on it for medical diagnoses or treatment decisions.
+Despite the overall advancements BiMediX shares common challenges with other language models, 
 including hallucinations, toxicity, and stereotypes.   
 BiMediX's medical diagnoses and recommendations are not infallible.
 
@@ -168,6 +161,9 @@ If you use BiMediX in your research, please cite our work as follows:
 }  
 
 ```
+
+
+---
 
 ## 🙏 Acknowledgements
 
