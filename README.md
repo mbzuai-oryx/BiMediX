@@ -15,6 +15,8 @@
 [![Demo](https://img.shields.io/badge/Gradio-Demo-red)](https://bimedix.ngrok.app/)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
 
+[![Video Title](images/Tumbnail.png)](https://drive.google.com/file/d/1YRWJPf_uHq2EYKjiy2s__r7MtN89Ir7R/view?usp=sharing)
+
 ---
 
 ## 📢 Latest Updates
