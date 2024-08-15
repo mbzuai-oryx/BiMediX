@@ -12,7 +12,7 @@
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/mbzuai-oryx/BiMediX)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Page-F9D371)](https://huggingface.co/BiMediX)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2402.13253)
-[![Demo](https://img.shields.io/badge/Gradio-Demo-red)](https://bimedix.ngrok.app/)
+[![Demo](https://img.shields.io/badge/Gradio-Demo-red)](https://0ae6-16-1-32-178.ngrok-free.app/)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
 
 [![Video Title](images/tumbnail.png)](https://youtu.be/kqfEdAcazIg)
@@ -20,7 +20,7 @@
 ---
 
 ## 📢 Latest Updates
-- **Feb-22-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://bimedix.ngrok.app/) are live. 🔥🔥
+- **Feb-22-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://0ae6-16-1-32-178.ngrok-free.app/) are live. 🔥🔥
 - **Feb-21-24**: BiMediX paper is released [arxiv link](https://arxiv.org/abs/2402.13253). 🔥🔥
 - 📦 Code and datasets coming soon! 🚀
 ---
