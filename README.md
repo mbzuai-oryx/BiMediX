@@ -1,4 +1,4 @@
-# BiMediX: Bilingual Medical Mixture of Experts LLM
+# BiMediX: Bilingual Medical Mixture of Experts LLM (EMNLP 2024)
 
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
@@ -20,6 +20,7 @@
 ---
 
 ## 📢 Latest Updates
+- **Sep-20-24**: Accepted to Findings of EMNLP 2024.
 - **Feb-22-24**: Trained [models](https://huggingface.co/BiMediX) and [demo](https://0ae6-16-1-32-178.ngrok-free.app/) are live. 🔥🔥
 - **Feb-21-24**: BiMediX paper is released [arxiv link](https://arxiv.org/abs/2402.13253). 🔥🔥
 - 📦 Code and datasets coming soon! 🚀
@@ -170,6 +171,8 @@ If you use BiMediX in your research, please cite our work as follows:
 ## 🙏 Acknowledgements
 
 We are thankful to [Mistral AI](https://huggingface.co/mistralai) for releasing their models and [FastChat](https://github.com/lm-sys/FastChat) and [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl?tab=readme-ov-file#axolotl) for their open-source code contributions.
+
+This project is partially supported with Google Research Award titled  *"A Climate Change and Sustainability Tailored Arabic LLM"*.
 
 ---
 
