@@ -1,4 +1,4 @@
-# BiMediX: Bilingual Medical Mixture of Experts LLM (EMNLP 2024)
+# BiMediX: Bilingual Medical Mixture of Experts LLM (EMNLP 2024 Findings)
 
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
