@@ -154,15 +154,27 @@ BiMediX's medical diagnoses and recommendations are not infallible.
 If you use BiMediX in your research, please cite our work as follows:  
 
 ```
-@misc{pieri2024bimedix,
-      title={BiMediX: Bilingual Medical Mixture of Experts LLM}, 
-      author={Sara Pieri and Sahal Shaji Mullappilly and Fahad Shahbaz Khan and Rao Muhammad Anwer and Salman Khan and Timothy Baldwin and Hisham Cholakkal},
-      year={2024},
-      eprint={2402.13253},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}  
-
+@inproceedings{pieri-etal-2024-bimedix,
+    title = "{B}i{M}edi{X}: Bilingual Medical Mixture of Experts {LLM}",
+    author = "Pieri, Sara  and
+      Mullappilly, Sahal Shaji  and
+      Khan, Fahad Shahbaz  and
+      Anwer, Rao Muhammad  and
+      Khan, Salman  and
+      Baldwin, Timothy  and
+      Cholakkal, Hisham",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.989",
+    pages = "16984--17002",
+    abstract = "In this paper, we introduce BiMediX, the first bilingual medical mixture of experts LLM designed for seamless interaction in both English and Arabic. Our model facilitates a wide range of medical interactions in English and Arabic, including multi-turn chats to inquire about additional details such as patient symptoms and medical history, multiple-choice question answering, and open-ended question answering. We propose a semi-automated English-to-Arabic translation pipeline with human refinement to ensure high-quality translations. We also introduce a comprehensive evaluation benchmark for Arabic medical LLMs. Furthermore, we introduce BiMed1.3M, an extensive Arabic-English bilingual instruction set that covers 1.3 Million diverse medical interactions, including 200k synthesized multi-turn doctor-patient chats, in a 1:2 Arabic-to-English ratio. Our model outperforms state-of-the-art Med42 and Meditron by average absolute gains of 2.5{\%} and 4.1{\%}, respectively, computed across multiple medical evaluation benchmarks in English, while operating at 8-times faster inference. Moreover, our BiMediX outperforms the generic Arabic-English bilingual LLM, Jais-30B, by average absolute gains of 10{\%} on our Arabic and 15{\%} on our bilingual evaluations across multiple datasets. Additionally, BiMediX exceeds the accuracy of GPT4 by 4.4{\%} in open-ended question UPHILL evaluation and largely outperforms state-of-the-art open source medical LLMs in human evaluations of multi-turn conversations. Our trained models, instruction set, and source code are available at https://github.com/mbzuai-oryx/BiMediX.",
+}
 ```
 
 
